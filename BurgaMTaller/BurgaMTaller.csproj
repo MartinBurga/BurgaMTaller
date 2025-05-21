@@ -66,6 +66,9 @@
 	  <MauiXaml Update="views\GridLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="views\StackPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="views\Testpage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
