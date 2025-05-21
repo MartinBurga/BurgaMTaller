@@ -4,9 +4,30 @@
              x:Class="BurgaMTaller.views.StackPage"
              Title="StackPage">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
+        <Label
+            Text="Martín"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            FontSize="70" />
+        <Label
+            Text="Burga"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="50"
+        />
+        <Label
+            Text="Caza"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="30"
+        />
+        <Button
+            Text="Flex Page"
+            Clicked="FlexButton_Clicked" 
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="#266fbc"
+            />
+
     </VerticalStackLayout>
 </ContentPage>
