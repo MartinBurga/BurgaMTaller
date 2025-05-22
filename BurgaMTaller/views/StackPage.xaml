@@ -21,13 +21,25 @@
             HorizontalOptions="Center" 
             FontSize="30"
         />
+
         <Button
+            Margin="0,10"
+            WidthRequest="100"
             Text="Flex Page"
             Clicked="FlexButton_Clicked" 
             HorizontalOptions="Center"
             VerticalOptions="Center"
             BackgroundColor="#266fbc"
             />
+        <Button
+            Margin="0,10"
+            WidthRequest="100"
+            Text="Inicio"
+            Clicked="Home_Clicked"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="Black"/>
+        
 
     </VerticalStackLayout>
 </ContentPage>

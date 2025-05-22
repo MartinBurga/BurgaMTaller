@@ -6,4 +6,10 @@ public partial class FlexPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void AbsolutePage_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new AbsoluteLayoutPage());
+
+    }
 }

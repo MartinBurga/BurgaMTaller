@@ -2,9 +2,20 @@ namespace BurgaMTaller.views;
 
 public partial class StackPage : ContentPage
 {
-	public StackPage()
+
+    public StackPage()
+    {
+        InitializeComponent();
+    }
+    private void FlexButton_Clicked(object sender, EventArgs e)
 	{
-		InitializeComponent();
+		Navigation.PushAsync(new FlexPage());
 	}
 
+    private void Home_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PopToRootAsync();
+    }
+
+    
 }
